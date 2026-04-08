@@ -1,35 +1,33 @@
-# OrangeHRM-Manual-Testing-Project
-Manual Testing Project for OrangeHRM – Test Plan, Test Cases, Bug Reports, and Test Summary.
 # OrangeHRM Manual Testing Project
 
-## Overview
-This project demonstrates end-to-end manual testing of the OrangeHRM system.
+## Project Overview
+This project involves a comprehensive manual testing evaluation of the **OrangeHRM Open Source Demo** platform (v5.8). The objective was to validate core HR functionalities, ensure data integrity, and identify potential defects in a simulated production environment.
 
-## Scope
-- Login / Authentication
-- Admin Module
-- PIM
-- Leave
-- Time
-- ESS
+## Testing Scope
+The test execution covered **120 test cases** across the following key modules:
+- **Login / Authentication:** Valid/invalid credentials, session management, and security edge cases.
+- **Admin Module:** User management, role assignments, and system configurations.
+- **PIM (Employee Information Management):** Full CRUD operations for employee records and search functionality.
+- **Leave Module:** Leave application, approval workflows, and balance tracking.
+- **Time Module:** Timesheet management and approval processes.
+- **ESS (Employee Self-Service):** Personal information updates and self-service features.
 
-## Testing Activities
-- Created 120+ test cases
-- Executed test scenarios
-- Identified and documented defects
-- Performed regression testing
+## Key Deliverables
+- **[Test Plan](./TestPlan-OrangeHRMManualTestingProject.pdf):** Detailed strategy, scope, and approach for the testing activity.
+- **[Test Case Results](./Testcases_Results.xlsx):** Complete execution log of 120 test cases with actual results and pass/fail status.
+- **[Bug Report](./Bug_Report_OrangeHRM.pdf):** Documentation of 6 identified issues, including severity, steps to reproduce, and recommendations.
+- **[Test Summary Report](./Test_Summary_Report_OrangeHRM.pdf):** High-level summary of execution metrics, module stability, and final assessment.
 
-## Deliverables
-- Test Plan
-- Test Cases
-- Bug Report
-- Test Summary Report
+## Execution Metrics
+- **Total Test Cases:** 120
+- **Pass Rate:** 95% (114/120)
+- **Defects Identified:** 6 (1 High, 2 Medium, 3 Low)
 
 ## Tools Used
-- Microsoft Excel
-- Microsoft Word
+- **Testing Type:** Manual Testing
+- **Documentation:** Microsoft Word, Microsoft Excel
+- **Reporting:** Markdown, PDF
+- **Environment:** Chromium on Ubuntu 22.04
 
-## Key Achievements
-- Identified 25 defects (High, Medium, Low)
-- Validated critical workflows
-- Demonstrated structured QA process
+---
+*Executed and Documented by Manus AI*
